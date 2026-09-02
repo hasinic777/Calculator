@@ -1,0 +1,20 @@
+a = float(input('Enter a number: '))
+b = float(input('Enter another number: '))
+function = input('What operation would you like (+,-,x,/)? ')
+
+if function == '+':
+  answer = a+b
+  print(answer)
+elif function == '-':
+  answer = a-b
+  print(answer)
+elif function == 'x':
+  answer = a*b
+  print(answer)
+elif function == '/':
+  answer = a/b
+  print(answer)
+else:
+  print('Whoops your operation is out of range!')
+
+
